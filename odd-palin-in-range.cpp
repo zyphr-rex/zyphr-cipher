@@ -29,9 +29,8 @@ int main(){
         if(i%2!=0){
             int temp = i/2;
             int high = 0;
-            int low = 0;
+            int low = pow(10,temp);
             while(temp>0){
-                low=low*10+1;
                 high=high*10+9;
                 temp--;
             }
